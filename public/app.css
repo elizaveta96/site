@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.h4 {
+    margin: 20px 0;
+}
+
+.article-info {
+    display: flex;
+}
+
+.article-likes {
+    display: flex;
+    width: max-content;
+}
+
+.article-likes--icon {
+    cursor: pointer;
+    background-image: url('/image/heart.svg');
+    background-repeat: no-repeat;
+    width: 30px;
+}
+
+.article-likes--count {
+    margin-left: 5px;
+}
+
+.article-views {
+    display: flex;
+    width: max-content;
+}
+
+.article-views--count {
+    margin-left: 5px;
+}
+
+.article-tags {
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.article-tag {
+    margin-bottom: 10px
+}
+
+.article-content--text {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.articles-pagination {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.articles-item--title {
+    font-weight: 700;
+}
+
+.articles-item--image {
+    height: 225px;
+}
